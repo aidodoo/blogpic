@@ -1,0 +1,312 @@
+D:\Program\Java\jdk1.8.0_112\bin\java -Didea.launcher.port=7532 "-Didea.launcher.bin.path=D:\Program\JetBrains\IntelliJ IDEA Community Edition 14.1.3\bin" -Dfile.encoding=UTF-8 -classpath "D:\Program\Java\jdk1.8.0_112\jre\lib\charsets.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\deploy.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\javaws.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\jce.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\jfr.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\jfxswt.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\jsse.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\management-agent.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\plugin.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\resources.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\rt.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\access-bridge-64.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\cldrdata.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\dnsns.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\jaccess.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\jfxrt.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\localedata.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\nashorn.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\sunec.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\sunjce_provider.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\sunmscapi.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\sunpkcs11.jar;D:\Program\Java\jdk1.8.0_112\jre\lib\ext\zipfs.jar;D:\workspace_spark\SparkInAction\target\classes;D:\Program\scala-2.11.6\lib\scala-actors-2.11.0.jar;D:\Program\scala-2.11.6\lib\scala-actors-migration_2.11-1.1.0.jar;D:\Program\scala-2.11.6\lib\scala-library.jar;D:\Program\scala-2.11.6\lib\scala-parser-combinators_2.11-1.0.3.jar;D:\Program\scala-2.11.6\lib\scala-reflect.jar;D:\Program\scala-2.11.6\lib\scala-swing_2.11-1.0.1.jar;D:\Program\scala-2.11.6\lib\scala-xml_2.11-1.0.3.jar;D:\Program\scala-2.11.6\lib\akka-actor_2.11-2.3.4.jar;D:\Program\scala-2.11.6\lib\config-1.2.1.jar;D:\Program\scala-2.11.6\lib\jline-2.12.1.jar;D:\Program\scala-2.11.6\lib\scala-compiler.jar;D:\Program\scala-2.11.6\lib\scala-continuations-library_2.11-1.0.2.jar;D:\Program\scala-2.11.6\lib\scala-continuations-plugin_2.11.5-1.0.2.jar;D:\Program\scala-2.11.6\lib\scalap-2.11.6.jar;D:\workspace_spark\SparkInAction\libs\elki\elki-0.7.1.jar;D:\workspace_spark\SparkInAction\libs\elki\libsvm-3.17.jar;D:\workspace_spark\SparkInAction\libs\elki\xalan-2.7.0.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-css-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-dom-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-ext-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-gvt-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-xml-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\trove4j-3.0.3.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-anim-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-util-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-codec-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-swing-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\xml-apis-1.3.04.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-bridge-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-parser-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-script-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-svggen-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\commons-io-1.3.1.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-svg-dom-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\elki-libsvm-0.7.1.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-awt-util-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-gui-util-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\elki-tutorial-0.7.1.jar;D:\workspace_spark\SparkInAction\libs\elki\xml-apis-ext-1.3.04.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-rasterizer-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\batik-transcoder-1.8.jar;D:\workspace_spark\SparkInAction\libs\elki\commons-logging-1.0.4.jar;D:\workspace_spark\SparkInAction\libs\elki\xmlgraphics-commons-2.1.jar;D:\workspace_spark\SparkInAction\libs\elki\elki-batik-visualization-0.7.1.jar;D:\workspace_spark\SparkInAction\libs\weka\mtj.jar;D:\workspace_spark\SparkInAction\libs\weka\core.jar;D:\workspace_spark\SparkInAction\libs\weka\weka.jar;D:\workspace_spark\SparkInAction\libs\weka\JFlex.jar;D:\workspace_spark\SparkInAction\libs\weka\junit.jar;D:\workspace_spark\SparkInAction\libs\weka\bounce.jar;D:\workspace_spark\SparkInAction\libs\weka\java-cup.jar;D:\workspace_spark\SparkInAction\libs\weka\weka-src.jar;D:\workspace_spark\SparkInAction\libs\weka\libsvm-3.17.jar;D:\workspace_spark\SparkInAction\libs\weka\xalan-2.7.0.jar;D:\workspace_spark\SparkInAction\libs\weka\trove4j-3.0.3.jar;D:\workspace_spark\SparkInAction\libs\weka\commons-io-1.3.1.jar;D:\workspace_spark\SparkInAction\libs\weka\arpack_combined_all.jar;D:\workspace_spark\SparkInAction\libs\weka\commons-compress-1.10.jar;D:\workspace_spark\SparkInAction\libs\weka\commons-logging-1.0.4.jar;C:\Users\double\.m2\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar;C:\Users\double\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\double\.m2\repository\org\apache\hbase\hbase-client\1.0.0-cdh5.4.2\hbase-client-1.0.0-cdh5.4.2.jar;C:\Users\double\.m2\repository\org\apache\hbase\hbase-annotations\1.0.0-cdh5.4.2\hbase-annotations-1.0.0-cdh5.4.2.jar;D:\Program\Java\jdk1.8.0_112\lib\tools.jar;C:\Users\double\.m2\repository\org\apache\hbase\hbase-protocol\1.0.0-cdh5.4.2\hbase-protocol-1.0.0-cdh5.4.2.jar;C:\Users\double\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\double\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\double\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\double\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\double\.m2\repository\com\google\guava\guava\12.0.1\guava-12.0.1.jar;C:\Users\double\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\double\.m2\repository\io\netty\netty\3.6.6.Final\netty-3.6.6.Final.jar;C:\Users\double\.m2\repository\org\apache\htrace\htrace-core\3.1.0-incubating\htrace-core-3.1.0-incubating.jar;C:\Users\double\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.8\jackson-mapper-asl-1.8.8.jar;C:\Users\double\.m2\repository\org\jruby\jcodings\jcodings\1.0.8\jcodings-1.0.8.jar;C:\Users\double\.m2\repository\org\jruby\joni\joni\2.1.2\joni-2.1.2.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-common\2.6.0-cdh5.4.2\hadoop-common-2.6.0-cdh5.4.2.jar;C:\Users\double\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\double\.m2\repository\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;C:\Users\double\.m2\repository\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;C:\Users\double\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;C:\Users\double\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.3\jackson-jaxrs-1.8.3.jar;C:\Users\double\.m2\repository\org\codehaus\jackson\jackson-xc\1.8.3\jackson-xc-1.8.3.jar;C:\Users\double\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\double\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\double\.m2\repository\org\apache\avro\avro\1.7.6-cdh5.4.2\avro-1.7.6-cdh5.4.2.jar;C:\Users\double\.m2\repository\com\jcraft\jsch\0.1.42\jsch-0.1.42.jar;C:\Users\double\.m2\repository\org\apache\curator\curator-client\2.7.1\curator-client-2.7.1.jar;C:\Users\double\.m2\repository\org\htrace\htrace-core\3.0.4\htrace-core-3.0.4.jar;C:\Users\double\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-annotations\2.6.0-cdh5.4.2\hadoop-annotations-2.6.0-cdh5.4.2.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-auth\2.6.0-cdh5.4.2\hadoop-auth-2.6.0-cdh5.4.2.jar;C:\Users\double\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\double\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\double\.m2\repository\org\apache\directory\server\apacheds-kerberos-codec\2.0.0-M15\apacheds-kerberos-codec-2.0.0-M15.jar;C:\Users\double\.m2\repository\org\apache\directory\server\apacheds-i18n\2.0.0-M15\apacheds-i18n-2.0.0-M15.jar;C:\Users\double\.m2\repository\org\apache\directory\api\api-asn1-api\1.0.0-M20\api-asn1-api-1.0.0-M20.jar;C:\Users\double\.m2\repository\org\apache\directory\api\api-util\1.0.0-M20\api-util-1.0.0-M20.jar;C:\Users\double\.m2\repository\org\apache\curator\curator-framework\2.7.1\curator-framework-2.7.1.jar;C:\Users\double\.m2\repository\org\apache\hbase\hbase-common\1.0.0-cdh5.4.2\hbase-common-1.0.0-cdh5.4.2.jar;C:\Users\double\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\double\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26.cloudera.4\jetty-util-6.1.26.cloudera.4.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-core\2.6.0-mr1-cdh5.4.2\hadoop-core-2.6.0-mr1-cdh5.4.2.jar;C:\Users\double\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\double\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\double\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\double\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\double\.m2\repository\org\mortbay\jetty\jetty\6.1.26.cloudera.2\jetty-6.1.26.cloudera.2.jar;C:\Users\double\.m2\repository\tomcat\jasper-runtime\5.5.23\jasper-runtime-5.5.23.jar;C:\Users\double\.m2\repository\tomcat\jasper-compiler\5.5.23\jasper-compiler-5.5.23.jar;C:\Users\double\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.8\jackson-core-asl-1.8.8.jar;C:\Users\double\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\double\.m2\repository\commons-el\commons-el\1.0\commons-el-1.0.jar;C:\Users\double\.m2\repository\net\java\dev\jets3t\jets3t\0.6.1\jets3t-0.6.1.jar;C:\Users\double\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\double\.m2\repository\hsqldb\hsqldb\1.8.0.10\hsqldb-1.8.0.10.jar;C:\Users\double\.m2\repository\org\eclipse\jdt\core\3.1.1\core-3.1.1.jar;C:\Users\double\.m2\repository\org\mongodb\mongo-java-driver\3.1.1\mongo-java-driver-3.1.1.jar;C:\Users\double\.m2\repository\org\mongodb\bson\3.1.1\bson-3.1.1.jar;C:\Users\double\.m2\repository\org\scala-lang\scala-library\2.11.6\scala-library-2.11.6.jar;C:\Users\double\.m2\repository\org\scala-lang\scala-compiler\2.11.6\scala-compiler-2.11.6.jar;C:\Users\double\.m2\repository\org\scala-lang\modules\scala-xml_2.11\1.0.3\scala-xml_2.11-1.0.3.jar;C:\Users\double\.m2\repository\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.3\scala-parser-combinators_2.11-1.0.3.jar;C:\Users\double\.m2\repository\org\scala-lang\scala-reflect\2.11.6\scala-reflect-2.11.6.jar;C:\Users\double\.m2\repository\com\typesafe\akka\akka-actor_2.11\2.3.4\akka-actor_2.11-2.3.4.jar;C:\Users\double\.m2\repository\com\typesafe\config\1.2.1\config-1.2.1.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-core_2.11\2.1.0\spark-core_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\apache\avro\avro-mapred\1.7.7\avro-mapred-1.7.7-hadoop2.jar;C:\Users\double\.m2\repository\org\apache\avro\avro-ipc\1.7.7\avro-ipc-1.7.7.jar;C:\Users\double\.m2\repository\org\apache\avro\avro-ipc\1.7.7\avro-ipc-1.7.7-tests.jar;C:\Users\double\.m2\repository\com\twitter\chill_2.11\0.8.0\chill_2.11-0.8.0.jar;C:\Users\double\.m2\repository\com\esotericsoftware\kryo-shaded\3.0.3\kryo-shaded-3.0.3.jar;C:\Users\double\.m2\repository\com\esotericsoftware\minlog\1.3.0\minlog-1.3.0.jar;C:\Users\double\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\double\.m2\repository\com\twitter\chill-java\0.8.0\chill-java-0.8.0.jar;C:\Users\double\.m2\repository\org\apache\xbean\xbean-asm5-shaded\4.4\xbean-asm5-shaded-4.4.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-client\2.2.0\hadoop-client-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.2.0\hadoop-hdfs-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.2.0\hadoop-mapreduce-client-app-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.2.0\hadoop-mapreduce-client-common-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.2.0\hadoop-yarn-client-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.2.0\hadoop-yarn-server-common-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.2.0\hadoop-mapreduce-client-shuffle-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.2.0\hadoop-yarn-api-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.2.0\hadoop-mapreduce-client-core-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.2.0\hadoop-yarn-common-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.2.0\hadoop-mapreduce-client-jobclient-2.2.0.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-launcher_2.11\2.1.0\spark-launcher_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-network-common_2.11\2.1.0\spark-network-common_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;C:\Users\double\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.5\jackson-annotations-2.6.5.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-network-shuffle_2.11\2.1.0\spark-network-shuffle_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-unsafe_2.11\2.1.0\spark-unsafe_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\apache\curator\curator-recipes\2.4.0\curator-recipes-2.4.0.jar;C:\Users\double\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\double\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\double\.m2\repository\org\apache\commons\commons-math3\3.4.1\commons-math3-3.4.1.jar;C:\Users\double\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\double\.m2\repository\org\slf4j\slf4j-api\1.7.16\slf4j-api-1.7.16.jar;C:\Users\double\.m2\repository\org\slf4j\jul-to-slf4j\1.7.16\jul-to-slf4j-1.7.16.jar;C:\Users\double\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.16\jcl-over-slf4j-1.7.16.jar;C:\Users\double\.m2\repository\org\slf4j\slf4j-log4j12\1.7.16\slf4j-log4j12-1.7.16.jar;C:\Users\double\.m2\repository\com\ning\compress-lzf\1.0.3\compress-lzf-1.0.3.jar;C:\Users\double\.m2\repository\org\xerial\snappy\snappy-java\1.1.2.6\snappy-java-1.1.2.6.jar;C:\Users\double\.m2\repository\net\jpountz\lz4\lz4\1.3.0\lz4-1.3.0.jar;C:\Users\double\.m2\repository\org\roaringbitmap\RoaringBitmap\0.5.11\RoaringBitmap-0.5.11.jar;C:\Users\double\.m2\repository\org\json4s\json4s-jackson_2.11\3.2.11\json4s-jackson_2.11-3.2.11.jar;C:\Users\double\.m2\repository\org\json4s\json4s-core_2.11\3.2.11\json4s-core_2.11-3.2.11.jar;C:\Users\double\.m2\repository\org\json4s\json4s-ast_2.11\3.2.11\json4s-ast_2.11-3.2.11.jar;C:\Users\double\.m2\repository\org\scala-lang\scalap\2.11.0\scalap-2.11.0.jar;C:\Users\double\.m2\repository\org\glassfish\jersey\core\jersey-client\2.22.2\jersey-client-2.22.2.jar;C:\Users\double\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\double\.m2\repository\org\glassfish\hk2\hk2-api\2.4.0-b34\hk2-api-2.4.0-b34.jar;C:\Users\double\.m2\repository\org\glassfish\hk2\hk2-utils\2.4.0-b34\hk2-utils-2.4.0-b34.jar;C:\Users\double\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.4.0-b34\aopalliance-repackaged-2.4.0-b34.jar;C:\Users\double\.m2\repository\org\glassfish\hk2\external\javax.inject\2.4.0-b34\javax.inject-2.4.0-b34.jar;C:\Users\double\.m2\repository\org\glassfish\hk2\hk2-locator\2.4.0-b34\hk2-locator-2.4.0-b34.jar;C:\Users\double\.m2\repository\org\glassfish\jersey\core\jersey-common\2.22.2\jersey-common-2.22.2.jar;C:\Users\double\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\double\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.22.2\jersey-guava-2.22.2.jar;C:\Users\double\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\double\.m2\repository\org\glassfish\jersey\core\jersey-server\2.22.2\jersey-server-2.22.2.jar;C:\Users\double\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.22.2\jersey-media-jaxb-2.22.2.jar;C:\Users\double\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\double\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.22.2\jersey-container-servlet-2.22.2.jar;C:\Users\double\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.22.2\jersey-container-servlet-core-2.22.2.jar;C:\Users\double\.m2\repository\io\netty\netty-all\4.0.42.Final\netty-all-4.0.42.Final.jar;C:\Users\double\.m2\repository\com\clearspring\analytics\stream\2.7.0\stream-2.7.0.jar;C:\Users\double\.m2\repository\io\dropwizard\metrics\metrics-core\3.1.2\metrics-core-3.1.2.jar;C:\Users\double\.m2\repository\io\dropwizard\metrics\metrics-jvm\3.1.2\metrics-jvm-3.1.2.jar;C:\Users\double\.m2\repository\io\dropwizard\metrics\metrics-json\3.1.2\metrics-json-3.1.2.jar;C:\Users\double\.m2\repository\io\dropwizard\metrics\metrics-graphite\3.1.2\metrics-graphite-3.1.2.jar;C:\Users\double\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.5\jackson-databind-2.6.5.jar;C:\Users\double\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.5\jackson-core-2.6.5.jar;C:\Users\double\.m2\repository\com\fasterxml\jackson\module\jackson-module-scala_2.11\2.6.5\jackson-module-scala_2.11-2.6.5.jar;C:\Users\double\.m2\repository\com\fasterxml\jackson\module\jackson-module-paranamer\2.6.5\jackson-module-paranamer-2.6.5.jar;C:\Users\double\.m2\repository\org\apache\ivy\ivy\2.4.0\ivy-2.4.0.jar;C:\Users\double\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\double\.m2\repository\net\razorvine\pyrolite\4.13\pyrolite-4.13.jar;C:\Users\double\.m2\repository\net\sf\py4j\py4j\0.10.4\py4j-0.10.4.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-tags_2.11\2.1.0\spark-tags_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\scalatest\scalatest_2.11\2.2.6\scalatest_2.11-2.2.6.jar;C:\Users\double\.m2\repository\org\apache\commons\commons-crypto\1.0.0\commons-crypto-1.0.0.jar;C:\Users\double\.m2\repository\org\spark-project\spark\unused\1.0.0\unused-1.0.0.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-mllib_2.11\2.1.0\spark-mllib_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-graphx_2.11\2.1.0\spark-graphx_2.11-2.1.0.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\core\1.1.2\core-1.1.2.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-mllib-local_2.11\2.1.0\spark-mllib-local_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\scalanlp\breeze_2.11\0.12\breeze_2.11-0.12.jar;C:\Users\double\.m2\repository\org\scalanlp\breeze-macros_2.11\0.12\breeze-macros_2.11-0.12.jar;C:\Users\double\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;C:\Users\double\.m2\repository\com\github\rwl\jtransforms\2.4.0\jtransforms-2.4.0.jar;C:\Users\double\.m2\repository\org\spire-math\spire_2.11\0.7.4\spire_2.11-0.7.4.jar;C:\Users\double\.m2\repository\org\spire-math\spire-macros_2.11\0.7.4\spire-macros_2.11-0.7.4.jar;C:\Users\double\.m2\repository\com\chuusai\shapeless_2.11\2.0.0\shapeless_2.11-2.0.0.jar;C:\Users\double\.m2\repository\org\jpmml\pmml-model\1.2.15\pmml-model-1.2.15.jar;C:\Users\double\.m2\repository\org\jpmml\pmml-schema\1.2.15\pmml-schema-1.2.15.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-streaming_2.11\2.1.0\spark-streaming_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-streaming-kafka_2.11\1.6.2\spark-streaming-kafka_2.11-1.6.2.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-sql_2.11\2.1.0\spark-sql_2.11-2.1.0.jar;C:\Users\double\.m2\repository\com\univocity\univocity-parsers\2.2.1\univocity-parsers-2.2.1.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-sketch_2.11\2.1.0\spark-sketch_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.1.0\spark-catalyst_2.11-2.1.0.jar;C:\Users\double\.m2\repository\org\codehaus\janino\janino\3.0.0\janino-3.0.0.jar;C:\Users\double\.m2\repository\org\codehaus\janino\commons-compiler\3.0.0\commons-compiler-3.0.0.jar;C:\Users\double\.m2\repository\org\antlr\antlr4-runtime\4.5.3\antlr4-runtime-4.5.3.jar;C:\Users\double\.m2\repository\org\apache\parquet\parquet-column\1.8.1\parquet-column-1.8.1.jar;C:\Users\double\.m2\repository\org\apache\parquet\parquet-common\1.8.1\parquet-common-1.8.1.jar;C:\Users\double\.m2\repository\org\apache\parquet\parquet-encoding\1.8.1\parquet-encoding-1.8.1.jar;C:\Users\double\.m2\repository\org\apache\parquet\parquet-hadoop\1.8.1\parquet-hadoop-1.8.1.jar;C:\Users\double\.m2\repository\org\apache\parquet\parquet-format\2.3.0-incubating\parquet-format-2.3.0-incubating.jar;C:\Users\double\.m2\repository\org\apache\parquet\parquet-jackson\1.8.1\parquet-jackson-1.8.1.jar;C:\Users\double\.m2\repository\de\lmu\ifi\dbs\elki\elki\0.7.0\elki-0.7.0.jar;C:\Users\double\.m2\repository\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;C:\Users\double\.m2\repository\nz\ac\waikato\cms\weka\weka-stable\3.8.0\weka-stable-3.8.0.jar;C:\Users\double\.m2\repository\nz\ac\waikato\cms\weka\thirdparty\java-cup-11b\2015.03.26\java-cup-11b-2015.03.26.jar;C:\Users\double\.m2\repository\nz\ac\waikato\cms\weka\thirdparty\java-cup-11b-runtime\2015.03.26\java-cup-11b-runtime-2015.03.26.jar;C:\Users\double\.m2\repository\nz\ac\waikato\cms\weka\thirdparty\bounce\0.18\bounce-0.18.jar;C:\Users\double\.m2\repository\com\googlecode\matrix-toolkits-java\mtj\1.0.4\mtj-1.0.4.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_ref-osx-x86_64\1.1\netlib-native_ref-osx-x86_64-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\native_ref-java\1.1\native_ref-java-1.1.jar;C:\Users\double\.m2\repository\com\github\fommil\jniloader\1.1\jniloader-1.1.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-x86_64\1.1\netlib-native_ref-linux-x86_64-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-i686\1.1\netlib-native_ref-linux-i686-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_ref-win-x86_64\1.1\netlib-native_ref-win-x86_64-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_ref-win-i686\1.1\netlib-native_ref-win-i686-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-armhf\1.1\netlib-native_ref-linux-armhf-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_system-osx-x86_64\1.1\netlib-native_system-osx-x86_64-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\native_system-java\1.1\native_system-java-1.1.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-x86_64\1.1\netlib-native_system-linux-x86_64-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-i686\1.1\netlib-native_system-linux-i686-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-armhf\1.1\netlib-native_system-linux-armhf-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_system-win-x86_64\1.1\netlib-native_system-win-x86_64-1.1-natives.jar;C:\Users\double\.m2\repository\com\github\fommil\netlib\netlib-native_system-win-i686\1.1\netlib-native_system-win-i686-1.1-natives.jar;C:\Users\double\.m2\repository\net\sourceforge\f2j\arpack_combined_all\0.1\arpack_combined_all-0.1.jar;C:\Users\double\.m2\repository\com\googlecode\netlib-java\netlib-java\1.1\netlib-java-1.1.jar;C:\Users\double\.m2\repository\org\apache\kafka\kafka_2.11\0.10.1.0\kafka_2.11-0.10.1.0.jar;C:\Users\double\.m2\repository\net\sf\jopt-simple\jopt-simple\4.9\jopt-simple-4.9.jar;C:\Users\double\.m2\repository\org\apache\kafka\kafka-clients\0.10.1.0\kafka-clients-0.10.1.0.jar;C:\Users\double\.m2\repository\org\springframework\kafka\spring-kafka\2.1.6.RELEASE\spring-kafka-2.1.6.RELEASE.jar;C:\Users\double\.m2\repository\org\springframework\spring-context\5.0.6.RELEASE\spring-context-5.0.6.RELEASE.jar;C:\Users\double\.m2\repository\org\springframework\spring-aop\5.0.6.RELEASE\spring-aop-5.0.6.RELEASE.jar;C:\Users\double\.m2\repository\org\springframework\spring-beans\5.0.6.RELEASE\spring-beans-5.0.6.RELEASE.jar;C:\Users\double\.m2\repository\org\springframework\spring-core\5.0.6.RELEASE\spring-core-5.0.6.RELEASE.jar;C:\Users\double\.m2\repository\org\springframework\spring-jcl\5.0.6.RELEASE\spring-jcl-5.0.6.RELEASE.jar;C:\Users\double\.m2\repository\org\springframework\spring-expression\5.0.6.RELEASE\spring-expression-5.0.6.RELEASE.jar;C:\Users\double\.m2\repository\org\springframework\spring-messaging\5.0.6.RELEASE\spring-messaging-5.0.6.RELEASE.jar;C:\Users\double\.m2\repository\org\springframework\spring-tx\5.0.6.RELEASE\spring-tx-5.0.6.RELEASE.jar;C:\Users\double\.m2\repository\org\springframework\retry\spring-retry\1.2.2.RELEASE\spring-retry-1.2.2.RELEASE.jar;C:\Users\double\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\double\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\double\.m2\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;C:\Users\double\.m2\repository\com\101tec\zkclient\0.9\zkclient-0.9.jar;C:\Users\double\.m2\repository\org\apache\flink\flink-java\1.1.3\flink-java-1.1.3.jar;C:\Users\double\.m2\repository\org\apache\flink\flink-core\1.1.3\flink-core-1.1.3.jar;C:\Users\double\.m2\repository\org\apache\flink\flink-annotations\1.1.3\flink-annotations-1.1.3.jar;C:\Users\double\.m2\repository\org\apache\flink\flink-metrics-core\1.1.3\flink-metrics-core-1.1.3.jar;C:\Users\double\.m2\repository\com\esotericsoftware\kryo\kryo\2.24.0\kryo-2.24.0.jar;C:\Users\double\.m2\repository\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;C:\Users\double\.m2\repository\org\apache\flink\flink-shaded-hadoop2\1.1.3\flink-shaded-hadoop2-1.1.3.jar;C:\Users\double\.m2\repository\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;C:\Users\double\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\double\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\double\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\double\.m2\repository\commons-beanutils\commons-beanutils-bean-collections\1.8.3\commons-beanutils-bean-collections-1.8.3.jar;C:\Users\double\.m2\repository\commons-daemon\commons-daemon\1.0.13\commons-daemon-1.0.13.jar;C:\Users\double\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\double\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\double\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\double\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\double\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\double\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\double\.m2\repository\org\apache\flink\force-shading\1.1.3\force-shading-1.1.3.jar;C:\Users\double\.m2\repository\org\apache\flink\flink-streaming-java_2.11\1.1.3\flink-streaming-java_2.11-1.1.3.jar;C:\Users\double\.m2\repository\org\apache\flink\flink-runtime_2.11\1.1.3\flink-runtime_2.11-1.1.3.jar;C:\Users\double\.m2\repository\org\javassist\javassist\3.18.2-GA\javassist-3.18.2-GA.jar;C:\Users\double\.m2\repository\com\typesafe\akka\akka-remote_2.11\2.3.7\akka-remote_2.11-2.3.7.jar;C:\Users\double\.m2\repository\org\uncommons\maths\uncommons-maths\1.2.2a\uncommons-maths-1.2.2a.jar;C:\Users\double\.m2\repository\com\typesafe\akka\akka-slf4j_2.11\2.3.7\akka-slf4j_2.11-2.3.7.jar;C:\Users\double\.m2\repository\org\clapper\grizzled-slf4j_2.11\1.0.2\grizzled-slf4j_2.11-1.0.2.jar;C:\Users\double\.m2\repository\com\github\scopt\scopt_2.11\3.2.0\scopt_2.11-3.2.0.jar;C:\Users\double\.m2\repository\org\apache\sling\org.apache.sling.commons.json\2.0.6\org.apache.sling.commons.json-2.0.6.jar;C:\Users\double\.m2\repository\org\apache\flink\flink-clients_2.11\1.1.3\flink-clients_2.11-1.1.3.jar;C:\Users\double\.m2\repository\org\apache\flink\flink-optimizer_2.11\1.1.3\flink-optimizer_2.11-1.1.3.jar;C:\Users\double\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar;C:\Users\double\.m2\repository\com\alibaba\fastjson\1.1.33\fastjson-1.1.33.jar;D:\Program\JetBrains\IntelliJ IDEA Community Edition 14.1.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain com.molyeo.kafka.KafkaProducerDemo
+18/07/11 14:57:43 INFO producer.ProducerConfig: ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [LAPTOP-2CBRDCI0:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+18/07/11 14:57:43 INFO producer.ProducerConfig: ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [LAPTOP-2CBRDCI0:9092]
+	buffer.memory = 33554432
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+18/07/11 14:57:44 INFO utils.AppInfoParser: Kafka version : 0.10.1.0
+18/07/11 14:57:44 INFO utils.AppInfoParser: Kafka commitId : 3402a74efb23d1d4
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-1,key=0,value=1531292264387
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=3,value=1531292264390
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-5,key=4,value=1531292264391
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=2,value=1531292264390
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=1,value=1531292264390
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-1,key=5,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-5,key=6,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-1,key=7,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-1,key=9,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-1,key=10,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-5,key=8,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-1,key=11,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=12,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=13,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=15,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=14,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=16,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=17,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=18,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=19,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=20,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=21,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=22,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=23,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=25,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=26,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-1,key=27,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-5,key=29,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=24,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-5,key=31,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=32,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-1,key=30,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=28,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=36,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=35,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=38,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=34,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=40,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=41,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=42,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=43,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=44,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=45,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=46,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=47,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=48,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=49,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=51,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=52,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=53,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=54,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=55,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=56,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=57,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=58,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=59,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=60,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=61,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=62,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=63,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=64,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=65,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=66,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=67,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=68,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=69,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=70,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=71,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=72,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=73,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=74,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=75,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=76,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=77,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=78,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=79,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=80,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=81,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=82,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=83,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=84,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=85,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=86,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=87,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=88,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=89,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=90,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=91,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=92,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=93,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=94,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=95,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=96,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=97,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=98,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-2,key=99,value=1531292264398
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-5,key=33,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-4,key=50,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-3,key=39,value=1531292264397
+18/07/11 14:57:44 INFO CommonProducerThread: prepare to send msg:thread name=pool-1-thread-1,key=37,value=1531292264397
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 1,value 1531292264390, sent to partition 0,offset 0 in 581 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 5,value 1531292264397, sent to partition 0,offset 1 in 197 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 7,value 1531292264397, sent to partition 0,offset 2 in 197 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 21,value 1531292264397, sent to partition 0,offset 3 in 195 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 17,value 1531292264397, sent to partition 0,offset 4 in 196 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 22,value 1531292264397, sent to partition 0,offset 5 in 178 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 15,value 1531292264397, sent to partition 0,offset 6 in 197 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 23,value 1531292264397, sent to partition 0,offset 7 in 178 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 11,value 1531292264397, sent to partition 0,offset 8 in 197 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 8,value 1531292264397, sent to partition 0,offset 9 in 197 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 27,value 1531292264397, sent to partition 0,offset 10 in 177 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 25,value 1531292264397, sent to partition 0,offset 11 in 177 ms
+
+
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 4,value 1531292264391, sent to partition 1,offset 0 in 583 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 6,value 1531292264397, sent to partition 1,offset 1 in 199 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 10,value 1531292264397, sent to partition 1,offset 2 in 198 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 12,value 1531292264397, sent to partition 1,offset 3 in 198 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 13,value 1531292264397, sent to partition 1,offset 4 in 198 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 14,value 1531292264397, sent to partition 1,offset 5 in 198 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 18,value 1531292264397, sent to partition 1,offset 6 in 197 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 19,value 1531292264397, sent to partition 1,offset 7 in 197 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 20,value 1531292264397, sent to partition 1,offset 8 in 197 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 26,value 1531292264397, sent to partition 1,offset 9 in 178 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 24,value 1531292264397, sent to partition 1,offset 10 in 178 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 31,value 1531292264397, sent to partition 1,offset 11 in 179 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 2,value 1531292264390, sent to partition 2,offset 0 in 584 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 3,value 1531292264390, sent to partition 2,offset 1 in 583 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 0,value 1531292264387, sent to partition 2,offset 2 in 584 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 9,value 1531292264397, sent to partition 2,offset 3 in 200 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 16,value 1531292264397, sent to partition 2,offset 4 in 198 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 29,value 1531292264397, sent to partition 2,offset 5 in 179 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 32,value 1531292264397, sent to partition 2,offset 6 in 179 ms
+
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 30,value 1531292264397, sent to partition 0,offset 12 in 184 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 28,value 1531292264397, sent to partition 0,offset 13 in 184 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 34,value 1531292264397, sent to partition 0,offset 14 in 183 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 43,value 1531292264397, sent to partition 0,offset 15 in 183 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 44,value 1531292264397, sent to partition 0,offset 16 in 183 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 45,value 1531292264397, sent to partition 0,offset 17 in 183 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 47,value 1531292264397, sent to partition 0,offset 18 in 184 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 48,value 1531292264397, sent to partition 0,offset 19 in 184 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 52,value 1531292264397, sent to partition 0,offset 20 in 182 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 54,value 1531292264397, sent to partition 0,offset 21 in 182 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 55,value 1531292264397, sent to partition 0,offset 22 in 182 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 56,value 1531292264397, sent to partition 0,offset 23 in 182 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 59,value 1531292264397, sent to partition 0,offset 24 in 181 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 60,value 1531292264397, sent to partition 0,offset 25 in 181 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 61,value 1531292264397, sent to partition 0,offset 26 in 181 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 63,value 1531292264397, sent to partition 0,offset 27 in 181 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 64,value 1531292264397, sent to partition 0,offset 28 in 181 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 70,value 1531292264398, sent to partition 0,offset 29 in 181 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 71,value 1531292264398, sent to partition 0,offset 30 in 180 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 72,value 1531292264398, sent to partition 0,offset 31 in 180 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 76,value 1531292264398, sent to partition 0,offset 32 in 179 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 79,value 1531292264398, sent to partition 0,offset 33 in 179 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 80,value 1531292264398, sent to partition 0,offset 34 in 178 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 82,value 1531292264398, sent to partition 0,offset 35 in 178 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 88,value 1531292264398, sent to partition 0,offset 36 in 177 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 89,value 1531292264398, sent to partition 0,offset 37 in 177 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 92,value 1531292264398, sent to partition 0,offset 38 in 177 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 93,value 1531292264398, sent to partition 0,offset 39 in 177 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 96,value 1531292264398, sent to partition 0,offset 40 in 176 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 98,value 1531292264398, sent to partition 0,offset 41 in 177 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 99,value 1531292264398, sent to partition 0,offset 42 in 177 ms
+
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 35,value 1531292264397, sent to partition 1,offset 12 in 187 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 38,value 1531292264397, sent to partition 1,offset 13 in 188 ms
+18/07/11 14:57:44 INFO ProducerAckCallback: send success:key 42,value 1531292264397, sent to partition 1,offset 14 in 192 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 46,value 1531292264397, sent to partition 1,offset 15 in 192 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 51,value 1531292264397, sent to partition 1,offset 16 in 192 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 53,value 1531292264397, sent to partition 1,offset 17 in 191 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 58,value 1531292264397, sent to partition 1,offset 18 in 191 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 62,value 1531292264397, sent to partition 1,offset 19 in 190 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 65,value 1531292264398, sent to partition 1,offset 20 in 189 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 66,value 1531292264398, sent to partition 1,offset 21 in 189 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 67,value 1531292264398, sent to partition 1,offset 22 in 190 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 68,value 1531292264398, sent to partition 1,offset 23 in 190 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 75,value 1531292264398, sent to partition 1,offset 24 in 188 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 77,value 1531292264398, sent to partition 1,offset 25 in 188 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 81,value 1531292264398, sent to partition 1,offset 26 in 187 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 84,value 1531292264398, sent to partition 1,offset 27 in 187 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 86,value 1531292264398, sent to partition 1,offset 28 in 187 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 87,value 1531292264398, sent to partition 1,offset 29 in 186 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 94,value 1531292264398, sent to partition 1,offset 30 in 185 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 95,value 1531292264398, sent to partition 1,offset 31 in 185 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 36,value 1531292264397, sent to partition 2,offset 7 in 194 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 40,value 1531292264397, sent to partition 2,offset 8 in 194 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 41,value 1531292264397, sent to partition 2,offset 9 in 195 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 49,value 1531292264397, sent to partition 2,offset 10 in 194 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 57,value 1531292264397, sent to partition 2,offset 11 in 193 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 69,value 1531292264398, sent to partition 2,offset 12 in 191 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 73,value 1531292264398, sent to partition 2,offset 13 in 190 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 74,value 1531292264398, sent to partition 2,offset 14 in 189 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 78,value 1531292264398, sent to partition 2,offset 15 in 189 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 83,value 1531292264398, sent to partition 2,offset 16 in 188 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 85,value 1531292264398, sent to partition 2,offset 17 in 188 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 90,value 1531292264398, sent to partition 2,offset 18 in 187 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 91,value 1531292264398, sent to partition 2,offset 19 in 187 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 97,value 1531292264398, sent to partition 2,offset 20 in 186 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 33,value 1531292264397, sent to partition 0,offset 43 in 186 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 39,value 1531292264397, sent to partition 1,offset 32 in 185 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 50,value 1531292264397, sent to partition 2,offset 21 in 186 ms
+18/07/11 14:57:45 INFO ProducerAckCallback: send success:key 37,value 1531292264397, sent to partition 0,offset 44 in 187 ms
+18/07/11 14:58:44 INFO producer.KafkaProducer: Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
